@@ -108,6 +108,13 @@ img {
   align-content: center;
   cursor: pointer;
 }
+
+.category:hover {
+  background-color: lightgrey;
+  border-radius:999em;
+  height: 50px;
+
+}
  
 .category {
   position: relative;
@@ -126,6 +133,7 @@ img {
   width: 36px;
   height: 36px;
   left:1vw;
+  bottom:15x;
   position:absolute;
 
 }
