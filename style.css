@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 350;
+}
+
+img {
+  width: 30px;
+  position:relative; 
+  height: 30px;
+  left: 22vh;
+  cursor: pointer;
+}
+
+.pill-btn{
+  display: inline-block;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 49px;
+  background:  rgb(29, 155, 240);
+  padding: 0px 20px;
+  margin: 20px 150px;
+  border-radius: 999em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  width: 15vw;
+  vertical-align: bottom;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+
+}
+ 
+
+  html,body{
+    overflow:auto;
+   }
+   body{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+   }
+
+   .clear{clear:both;}
+   #wrapper{
+    overflow:hidden;
+    min-height:100%;
+   }
+   #sidebarleft{
+    width:45vw;
+    max-width:28%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    min-height:100%;
+    border-right: 1px solid red;
+    position: fixed;
+   }
+
+   #sidebarright{
+    background-color:rgb(0, 255, 72);
+    width:55vw;
+    max-width:35%;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+    min-height:100%;
+    border-left: 1px solid red;
+    position:relative;
+    height:10%;
+   }
+   #sidebarleft{
+    float:left;
+   }
+   #sidebarright{
+    float:right;
+   }
+   #main{
+    overflow:inherit;
+    border-top: 0px solid red;
+    padding:;
+    bottom: 0vh;
+    top: 40px;
+    left:50vw;
+    right:80vw;
+    position:relative;
+    width: 100%;
+  }
+
+     /* The navigation menu links */
+.material-icons {
+  padding: 8px 12px 8px 4px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(7, 2, 2);
+  display: inline-block;
+  position: flex;
+  margin: 5px 10px;
+  align-content: center;
+  cursor: pointer;
+}
+ 
+.category {
+  position: relative;
+  z-index: 2;
+  margin-left: 20vh;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pictures {
+     padding-top:5vh;
+}
+
+.image{
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  left:1vw;
+  position:absolute;
+
+}
+
+input{
+  background-color: lightgrey;
+  display: grid;
+  width: 60%;
+  margin-left: 35px;
+  margin-top: 10px;
+  border-radius: 23px 23px;
+  height: 55px;
+  text-decoration: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  border:none;
+
+}
+
+.comment{
+  background-color: lightgrey;
+  display:block;
+  width: 60%;
+  padding-left: 1vw;
+  margin-left: 35px;
+  margin-top: 12px;
+  margin-bottom: 0vh;
+  border-radius: 25px 25px;
+  height: 22vh;
+  position: inherit;
+  font-weight: 500;
+}
+
+.comment1{
+  background-color: lightgrey;
+  display:block;
+  width: 60%;
+  padding-left: 1vw;
+  margin-left: 35px;
+  margin-top: 12px;
+  margin-bottom: 12vh;
+  border-radius: 25px 25px;
+  height: 78vh;
+  position: inherit;
+  font-weight: 500;
+
+}
+
+#hashtag{
+  color:grey;
+  padding-left:200px;
+  font-size: 19px;
+}
+
+#tag{
+  color:grey;
+  font-size: 13px;
+}
+
+
+a.button2{
+  display:grid;
+  height: 40px;
+  width: 9vw;
+  line-height: 43px;
+  background:  rgb(6, 7, 7);
+  padding: 0px 20px;
+  margin: 14px 28px;
+  border-radius: 999em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  vertical-align: bottom;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  margin: 2px 0px;
+
+
+  }
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
