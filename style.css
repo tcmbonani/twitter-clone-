@@ -246,6 +246,27 @@ margin-left: auto;
   width: 30px;
   color-scheme: light;
 }
+
+.Phsu3:hover {
+  background-color:lightsalmon;
+  border-radius: 40px;
+  color: red;
+  transition: color 100ms ease-out;
+  display: block;
+  width: 30px;
+  color-scheme: light;
+}
+
+.q124jk:hover {
+  background-color:lightseagreen;
+  border-radius: 40px;
+  color: lightskyblue;
+  transition: color 100ms ease-out;
+  display: block;
+  width: 30px;
+  color-scheme: light;
+}
+
 .post__badge {
   font-size: 14px ! important;
   color: var(--twitter-color);
