@@ -182,12 +182,28 @@ font-weight: 900;
 border-radius: 30px;
 width: 80px;
 height: 40px;
-margin-top: 20px;
+margin-top: -10px;
 margin-left: auto;
+float: right;
 
 }
 
+.f2548k{
+  display:inline-block;
+  justify-content:space-between;
+  cursor: pointer;
+  color: var(--twitter-color);
+  margin-left: auto;
+}
+ 
 
+.icon{
+  padding-left: 7vw;
+}
+
+.truth{
+  color:var(--twitter-background-color);
+}
 /*post*/
 
 .post__avatar img{
