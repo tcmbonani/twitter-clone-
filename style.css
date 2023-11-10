@@ -147,7 +147,7 @@ body {
 
 .tweetbox__input img{
   border-radius:50%;
-  height: 50px;
+   height: 50px;
 }
 
 .tweetbox{
@@ -344,10 +344,33 @@ margin-right: 25px;
   position: sticky;
 }
 
-widgets__widgetsContainer{
-  margin-top: 0px;
-  margin-left:0px;
-  padding: 0px;
-  background-color: var(--twitter-background-color);
+.widgets__widgetsContainer{
+background-color: var(--twitter-background-color);
+position:relative;
+margin-top: 15px;
+margin-left: 18px;
+border-radius:20px;
 }
+
+#tag {
+  margin-left: 15px;
+}
+
+h5{
+  margin-left: 15px;
+}
+
+.widget__header{
+  margin-left: 15px;
+}
+
+.who_to_follow{
+  background-color: var(--twitter-background-color);
+position:relative;
+margin-top: 15px;
+margin-left: 18px;
+border-radius:20px;
+
+}
+
 
