@@ -20,8 +20,16 @@ body{
 
 .e853{
   margin: 35px 0px;
+
 }
 
+.e853 img{
+border-radius:50%;
+height: 40px;
+margin-right:39vw;
+position:absolute;
+display:flex;
+}
 
 
 .sidebarOption .material-icons,fa-twitter {
@@ -69,6 +77,8 @@ body {
 
 }
 
+/** main container**/
+
 .sidebar{
   border-right: 1px solid grey;
   flex: 0.2;
@@ -76,6 +86,7 @@ body {
   margin-top: 20px;
   padding-left:20px;
   padding-right: 20px;
+
 }
 
 /** feed**/
@@ -153,7 +164,8 @@ body {
 .tweetbox{
   padding-bottom: 10px;
   border-bottom: 1px solid var(--twitter-background-color);
-  padding-right: 10px;  
+  padding-right: 0px;
+
 }
 
 .tweetbox form{
