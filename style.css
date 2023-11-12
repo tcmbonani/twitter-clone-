@@ -24,8 +24,9 @@ body{
 }
 
 .e853 img{
+height:50px;
+width:50px;
 border-radius:50%;
-height: 40px;
 margin-right:39vw;
 position:absolute;
 display:flex;
@@ -86,6 +87,8 @@ body {
   margin-top: 20px;
   padding-left:20px;
   padding-right: 20px;
+  z-index: 100;
+  position:fixed;
 
 }
 
@@ -102,7 +105,10 @@ body {
   min-width: fit-content;
   overflow-y:scroll;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width:none;
+  margin-left: auto;
+
+
 }
 
 .feed__header {
@@ -113,6 +119,7 @@ body {
   border: 1px solid var(--twitter-background-color);
   padding: 15px 20px;
   cursor: pointer;
+  
 }
 
 .feed__header h2{
@@ -157,8 +164,9 @@ body {
 /* tweet box */
 
 .tweetbox__input img{
+  height:50px;
+  width:50px;
   border-radius:50%;
-   height: 50px;
 }
 
 .tweetbox{
@@ -220,8 +228,9 @@ margin-right: 25px;
 /*post*/
 
 .post__avatar img{
-  border-radius: 50px;
-  height: 40px;
+  height:50px;
+  width:50px;
+  border-radius:50%;
 }
 
 .post{
@@ -333,6 +342,7 @@ margin-right: 25px;
 
 .widgets{
   flex:0.3;
+  position:relative;
 }
 
 .widgets__input{
@@ -377,12 +387,37 @@ h5{
 }
 
 .who_to_follow{
-  background-color: var(--twitter-background-color);
+background-color: var(--twitter-background-color);
 position:relative;
-margin-top: 15px;
+margin-top: 18px;
 margin-left: 18px;
 border-radius:20px;
+padding-bottom: 2px;
 
+}
+
+.widget__followers img{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  margin-right:39vw;
+  position:absolute;
+  display:flex;
+  
+}
+
+.widget__followers{
+  margin: 30px 25px;
+}
+
+.widget__followers{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Ek546 {
+  padding-left:30px;
 }
 
 
