@@ -1,0 +1,33 @@
+@media (max-width: 500px) {
+.sidebar {
+    display: none;
+    }
+
+    .widgets {
+        display: none;
+      }
+
+      .tweetbox , .post{
+        object-fit: contain;
+        align-content: center;
+        width: 100%; 
+    }
+     
+}
+
+
+@media screen and (max-width: 1500px) {
+    .sidebar {
+        display: none;
+    }
+
+    .widgets {
+        display: none;
+      }
+
+      .tweetbox , .post{
+        object-fit: contain;
+        align-content: center;
+        width: 100%; 
+    }
+  }
