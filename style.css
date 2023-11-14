@@ -103,16 +103,17 @@ body {
   flex: 0.5;
   border-right: 1px solid var(--twitter-background-color);
   min-width: fit-content;
-  overflow-y:scroll;
+  overflow-y:none;
   -ms-overflow-style: none;
   scrollbar-width:none;
   margin-left: auto;
-
-
+  margin-top:auto;
+  bottom: 0;
 }
 
 .feed__header {
   position:sticky;
+  position:-webkit-sticky; 
   top:0;
   background-color: white;
   z-index: 100;
@@ -353,6 +354,7 @@ margin-right: 25px;
   border-radius:20px;
   margin-top:10px;
   margin-left: 20px;
+  position: sticky;
 }
 
 .widgets__input input{
@@ -367,7 +369,7 @@ margin-right: 25px;
 }
 
 .widgets__widgetsContainer{
-background-color: var(--twitter-background-color);
+background-color: #eee;
 position:relative;
 margin-top: 15px;
 margin-left: 18px;
@@ -387,7 +389,7 @@ h5{
 }
 
 .who_to_follow{
-background-color: var(--twitter-background-color);
+background-color: #eee;
 position:relative;
 margin-top: 18px;
 margin-left: 18px;
@@ -435,4 +437,6 @@ padding-bottom: 2px;
   cursor: pointer;
   }
 
- 
+  .show-on-mobile{
+    display: none;
+  }
