@@ -1,98 +1,90 @@
 @media (max-width: 768px) {
-.sidebar {
-    display: none;
-    }
-
-
-    .widgets {
-        display: none;
+  .sidebar {
+      display: none;
       }
-
-      .tweetbox , .post{
-        object-fit: contain;
-        align-content: center;
-        width: 100%; 
-    }
-    
-    .show-on-mobile{
-        position:sticky;
-        bottom:0;
-        background-color: white;
-        z-index: 100;
-        border: 1px solid var(--twitter-background-color);
-        padding: 15px 45px;
-        cursor: pointer;
-        display:flex;
+  
+  
+      .widgets {
+          display: none;
+        }
+  
+        .tweetbox , .post{
+          object-fit: contain;
+          align-content: center;
+          width: 100%; 
       }
-
       
-
-
-}
-
-@media (max-width: 992px) {
-    .sidebar {
-       display: none;
+      .show-on-mobile{
+          position:sticky;
+          bottom:0;
+          background-color: white;
+          z-index: 100;
+          border: 1px solid var(--twitter-background-color);
+          padding: 15px 45px;
+          cursor: pointer;
+          display:flex;
+        justify-content:space-between;
+        margin-top: 10px;
         }
-    
-        .widgets {
-            display: none;
+  
+  }
+  
+  @media (max-width: 992px) {
+      .sidebar {
+         display: none;
           }
-    
-          .tweetbox , .post{
-            object-fit: contain;
-            align-content: center;
-            width: 100%; 
-        }
-
-        .show-on-mobile{
-            position:sticky;
-            bottom:0;
-            background-color: white;
-            z-index: 100;
-            border: 1px solid var(--twitter-background-color);
-            padding: 15px 45px;
-            cursor: pointer;
-            display:flex;
-          justify-content:space-between;
-          margin-top: 10px;
-          background-color:aliceblue;
-          align-content: flex-start;
+      
+          .widgets {
+              display: none;
+            }
+      
+            .tweetbox , .post{
+              object-fit: contain;
+              align-content: center;
+              width: 100%; 
           }
-
-
+  
+          .show-on-mobile{
+              position:sticky;
+              bottom:0;
+              background-color: white;
+              z-index: 100;
+              border: 1px solid var(--twitter-background-color);
+              padding: 15px 45px;
+              cursor: pointer;
+              display:flex;
+            justify-content:space-between;
+            margin-top: 10px;
+            }
           
-        
-         
-    }
-    
-
-@media screen and (max-width: 1200px) {
-    .sidebar {
-        display: none;
-    }
-
-    .widgets {
-        display: none;
+           
       }
-
-      .tweetbox , .post{
-        object-fit: contain;
-        align-content: center;
-        width: 100%; 
-    }
-    .show-on-mobile{
-        position:sticky;
-        bottom:0;
-        background-color: white;
-        z-index: 100;
-        border: 1px solid var(--twitter-background-color);
-        padding: 15px 45px;
-        cursor: pointer;
-        display:flex;
-      justify-content:space-between;
-      margin-top: 10px;
-      background-color:aliceblue;
+      
+  
+  @media screen and (max-width: 1200px) {
+      .sidebar {
+          display: none;
       }
-
+  
+      .widgets {
+          display: none;
+        }
+  
+        .tweetbox , .post{
+          object-fit: contain;
+          align-content: center;
+          width: 100%; 
+      }
+      .show-on-mobile{
+          position:sticky;
+          bottom:0;
+          background-color: white;
+          z-index: 100;
+          border: 1px solid var(--twitter-background-color);
+          padding: 15px 45px;
+          cursor: pointer;
+          display:flex;
+        justify-content:space-between;
+        margin-top: 10px;
+        }
     }
