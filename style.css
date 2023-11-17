@@ -19,7 +19,7 @@ body{
 }
 
 .e853{
-  margin: 35px 0px;
+  margin: 125px 0px;
 
 }
 
@@ -34,7 +34,7 @@ display:flex;
 
 
 .sidebarOption .material-icons,fa-twitter {
-  padding: 20px;
+  padding: 15px;
 }
 
 .sidebarOption h2{
@@ -388,11 +388,13 @@ position:relative;
 margin-top: 15px;
 margin-left: 18px;
 border-radius:20px;
+padding-bottom: 5vh;
 }
 
 #tag {
   margin-left: 15px;
-}
+  color: grey;
+  }
 
 h5{
   margin-left: 15px;
@@ -454,3 +456,7 @@ padding-bottom: 2px;
   .show-on-mobile{
     display: none;
   }
+
+  .text-muted fw-normal {
+    margin-bottom: -5px;
+}
