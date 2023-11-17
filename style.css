@@ -182,6 +182,7 @@ body {
   flex-direction: column;
 }
 
+
 .counts{
   text-align: center;
   color:var(--twitter-color);
@@ -189,7 +190,7 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
   }
-  
+
 .tweetbox__input{
   display: flex;
   padding:20px;
@@ -247,6 +248,11 @@ margin-right: 25px;
   align-items: flex-start;
   border-bottom: 1px solid var(--twitter-background-color);
   padding-bottom: 10px;
+}
+
+.post:hover{
+  background-color: var(--twitter-background-color);
+
 }
 
 .post__body img{
