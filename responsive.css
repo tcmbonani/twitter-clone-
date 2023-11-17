@@ -23,9 +23,10 @@
         padding: 15px 45px;
         cursor: pointer;
         display:flex;
-      justify-content:space-between;
-      margin-top: 10px;
       }
+
+      
+
 
 }
 
@@ -55,7 +56,12 @@
             display:flex;
           justify-content:space-between;
           margin-top: 10px;
+          background-color:aliceblue;
+          align-content: flex-start;
           }
+
+
+          
         
          
     }
@@ -86,5 +92,7 @@
         display:flex;
       justify-content:space-between;
       margin-top: 10px;
+      background-color:aliceblue;
       }
-  }
+
+    }

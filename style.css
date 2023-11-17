@@ -137,6 +137,14 @@ body {
   transition: color 100ms ease-out;
 }**/
 
+.feedhove{
+  display: flex;
+  margin-left:50px;
+  border-bottom: 50px;
+  margin-top: -4vh;
+  
+}
+
 .feedhove:hover {
   background-color: var(--twitter-background-color);
   border-radius: 40px;
@@ -163,14 +171,23 @@ body {
 .e65f {
   float: right;
   margin-top: -3vh;
+
+
 }
 /* tweet box */
+
+.feed__header img{
+  height:30px;
+  width:30px;
+  border-radius:50%;
+}
 
 .tweetbox__input img{
   height:50px;
   width:50px;
   border-radius:50%;
 }
+
 
 .tweetbox{
   padding-bottom: 10px;
@@ -183,6 +200,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.counts{
+  text-align: center;
+  color:var(--twitter-color);
+  cursor:pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+
+  
 
 .tweetbox__input{
   display: flex;
