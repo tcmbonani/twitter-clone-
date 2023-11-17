@@ -23,10 +23,13 @@
           padding: 15px 45px;
           cursor: pointer;
           display:flex;
-        justify-content:space-between;
-        margin-top: 10px;
         }
-  
+
+        .feed__header img{
+          height:30px;
+          width:30px;
+          border-radius:50%;
+        }
   }
   
   @media (max-width: 992px) {
@@ -55,9 +58,14 @@
               display:flex;
             justify-content:space-between;
             margin-top: 10px;
-            }
-          
-           
+            background-color:aliceblue;
+            align-content: flex-start;
+          }
+          .feed__header img{
+            height:30px;
+            width:30px;
+            border-radius:50%;
+          }
       }
       
   
@@ -86,5 +94,12 @@
           display:flex;
         justify-content:space-between;
         margin-top: 10px;
+        background-color:aliceblue;
         }
-    }
+        .feed__header img{
+          height:30px;
+          width:30px;
+          border-radius:50%;
+        }
+  
+      }
