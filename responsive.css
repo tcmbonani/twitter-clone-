@@ -30,6 +30,10 @@
           width:30px;
           border-radius:50%;
         }
+
+        .feed{
+          width: 100vw;
+        }
         .right {
           display: block;
           position: fixed;
@@ -77,6 +81,10 @@
             width:30px;
             border-radius:50%;
           }
+
+          .feed{
+            width: 100vw;
+          }
           .right {
             display: block;
             position: fixed;
@@ -122,6 +130,10 @@
           height:30px;
           width:30px;
           border-radius:50%;
+        }
+
+        .feed{
+          width: 100vw;
         }
 
         .right {

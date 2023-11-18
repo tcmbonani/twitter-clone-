@@ -81,7 +81,6 @@ body {
 /** main container**/
 
 .sidebar{
-  border-right: 1px solid grey;
   flex: 0.2;
   min-width: 250px;
   margin-top: 20px;
@@ -109,6 +108,7 @@ body {
   margin-left: auto;
   margin-top:auto;
   bottom: 0;
+  width: 100vw;
 }
 
 .feed__header {
@@ -171,6 +171,7 @@ body {
 }
 
 .tweetbox{
+  border-left: 1px solid var(--twitter-background-color);
   padding-bottom: 10px;
   border-bottom: 1px solid var(--twitter-background-color);
   padding-right: 0px;
@@ -244,6 +245,7 @@ margin-right: 25px;
 }
 
 .post{
+  border-left: 1px solid var(--twitter-background-color);
   display: flex;
   align-items: flex-start;
   border-bottom: 1px solid var(--twitter-background-color);
@@ -410,7 +412,7 @@ position:relative;
 margin-top: 18px;
 margin-left: 18px;
 border-radius:20px;
-padding-bottom: 10px;
+padding: 10px 10px;
 
 
 }
@@ -463,6 +465,7 @@ padding-bottom: 10px;
     color:var(--twitter-color);
     cursor:pointer;
     padding-top: 2vh;
+    padding:10px 10px;
     }
 
   .right {
