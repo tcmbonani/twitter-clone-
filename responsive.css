@@ -3,6 +3,11 @@
       display: none;
       }
   
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
   
       .widgets {
           display: none;
@@ -32,7 +37,7 @@
         }
 
         .feed{
-          width: 100vw;
+          width:100vw;
         }
         .right {
           display: block;
@@ -45,11 +50,21 @@
           padding-top: 15px;
           padding-bottom: 15px;
       }
+
+      .profileside {
+        display:none;
+      }
   }
   
   @media (max-width: 992px) {
       .sidebar {
          display: none;
+          }
+
+          body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
           }
       
           .widgets {
@@ -83,7 +98,7 @@
           }
 
           .feed{
-            width: 100vw;
+            width:100vw;
           }
           .right {
             display: block;
@@ -96,6 +111,9 @@
             padding-top: 15px;
             padding-bottom: 15px;
         }
+        .profileside {
+          display:none;
+        }
       }
       
   
@@ -107,12 +125,19 @@
       .widgets {
           display: none;
         }
-  
+
+        body {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
         .tweetbox , .post{
           object-fit: contain;
           align-content: center;
           width: 100%; 
       }
+
       .show-on-mobile{
           position:sticky;
           bottom:0;
@@ -133,7 +158,7 @@
         }
 
         .feed{
-          width: 100vw;
+          width:100vw;
         }
 
         .right {
@@ -149,5 +174,7 @@
           padding-top: 15px;
           padding-bottom: 15px;
       }
-  
+      .profileside{
+        display:none;
+      }
       }
