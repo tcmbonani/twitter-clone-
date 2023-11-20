@@ -7,7 +7,8 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow-x: none;
+        max-width: 100%!important;
+        overflow-x: hidden!important;
       }
   
       .widgets {
@@ -38,7 +39,7 @@
         }
 
         .feed{
-          width:100vw;
+          width:100%
         }
         .right {
           display: block;
@@ -66,9 +67,9 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            overflow-x: none;
+            max-width: 100%!important;
+            overflow-x: hidden!important;
           }
-      
           .widgets {
               display: none;
             }
@@ -132,7 +133,8 @@
           margin: 0;
           padding: 0;
           box-sizing: border-box;
-          overflow-x: none;
+          max-width: 100%!important;
+          overflow-x: hidden!important;
         }
     
         .tweetbox , .post{
@@ -180,4 +182,5 @@
       .profileside{
         display:none;
       }
+      
       }
